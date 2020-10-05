@@ -4,4 +4,6 @@ const getDaysInMonth = require("../exercise-5");
 test("Exercise 5", () => {
   expect(getDaysInMonth("November")).toBe(30);
   // add more tests here...
+  expect(getDaysInMonth("April")).toBe(30);
+  expect(getDaysInMonth("February")).toBe(28);
 });

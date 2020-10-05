@@ -7,6 +7,9 @@
 
 const combineArrays = (arr1, arr2) => {
   // Insert missing solution please
+  let child = arr1.concat(arr2);
+  child.sort();
+  return child;
 };
 
 // 2. Do a console.log to verify your function.

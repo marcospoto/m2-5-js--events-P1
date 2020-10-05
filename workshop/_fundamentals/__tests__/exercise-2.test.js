@@ -6,4 +6,10 @@ test("Exercise 2", () => {
     combineArrays(["crisp", "bacon"], ["zuchini", "apple"])
   ).toStrictEqual(["apple", "bacon", "crisp", "zuchini"]);
   // add more tests here...
+  expect(combineArrays(["dom", "peter"], ["alex", "anthony"])).toStrictEqual([
+    "alex",
+    "anthony",
+    "dom",
+    "peter",
+  ]);
 });

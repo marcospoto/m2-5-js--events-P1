@@ -5,8 +5,13 @@
 
 const letterCount = (arr) => {
   // Insert missing solution please
+  let num = 0;
+  arr.forEach((word) => {
+    num += word.length;
+  });
+  return num;
 };
-
+letterCount(["crisp", "bacon"]);
 // 2. Do a console.log to verify your function.
 
 // 3. Test your function.
